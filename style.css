@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('88.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+.logo{
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 200px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+nav {
+   border: 1px solid white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.lesson-container {
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: rgba(240, 235, 235, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-content h1 {
+    color: #007bff;
+}
+
+.feedback-section, .quiz-section, #studentIdentification {
+    margin-top: 20px;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;}
+
+    .lesson-content H3{
+        color: #007bff;
+    }    
+    .lesson-content H2{
+        color: #007bff;
+    }  
+    .container2{
+        background-color: rgb(223, 223, 213);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        
+        align-items: center;
+
+    }
+    .container2 h3{
+        text-align: center;
+    }  
+    .t{
+     margin-left: 10px;
+    }
