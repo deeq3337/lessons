@@ -44,6 +44,8 @@ function viewLocalStorage(){
     console.log("Quiz Data:", JSON.parse(localStorage.getItem('quizData')));
 }
 
+
+
 //If you want to add a button to the html to run the function viewLocalStorage()
 //you can add this line to your html.
 //<button onclick="viewLocalStorage()">View Local Storage</button>

@@ -19,7 +19,11 @@ body {
     margin-left: 10px;
 }
 nav {
-   border: 1px solid white;
+    background-color: #9dabbb;
+    position: sticky;
+    top: 60px;
+    z-index: 100%;
+  
     padding: 10px 0;
 }
 
@@ -28,6 +32,7 @@ nav ul {
     text-align: center;
     margin: 0;
     padding: 0;
+    
 }
 
 nav ul li {
@@ -67,7 +72,10 @@ textarea {
 
 button {
     background-color: #007bff;
-    color: white;}
+    color: white;
+    border: none
+}
+    
 
     .lesson-content H3{
         color: #007bff;
@@ -91,3 +99,136 @@ button {
     .t{
      margin-left: 10px;
     }
+    .container3{
+        background-color: rgb(219, 219, 176);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        
+        align-items: center;   
+    }
+    .container3 h3{
+        border-bottom: 1px solid #007bff; 
+    }
+    .logo img{
+        border-radius: 70px;
+        margin-top: 5px;
+        margin-right: 10px;
+        border: 2px   solid white;
+
+    }
+    .qarson{
+        display: none;
+        background-color: #e7d6d6;
+        padding: 10px;
+    }
+    .quiz-button{
+        margin-top: 5px;
+    }
+    button:hover{
+        background: #04fcdb;
+        color: black;
+        cursor: pointer;
+    }
+    .quiz-button button{
+        width: 150px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .pointer{
+        position: absolute;
+        top: 2850px;
+       margin-left: 100px;
+       
+    }
+    .ogaysis{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+       
+        border-radius: 10px;
+    }
+    nav ul li a:hover{
+        background-color: #007bff;
+        color: white;
+        border-radius: 10px;
+       height: 50px;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        z-index: 100%;
+        background-color: #007bff; ;
+    }
+    .portion1{
+        background-color: rgb(223, 223, 213);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        
+        align-items: center;  
+    }
+    .uses{
+
+        background-color: rgb(223, 223, 213);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;     
+    }
+    .mechanism{
+        background-color: rgb(223, 223, 213);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;     
+    }    
+    .important{
+        background-color: rgb(223, 223, 213);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;    
+    }
+    .side{
+        background-color: rgb(255, 109, 129);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;      
+    }
+    .serious{
+        background-color: rgb(255, 29, 59);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;
+        color: white;    
+    }
+    .dosage{
+        background-color: rgb(235, 235, 222);
+        max-width: 100%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;     
+    }
+    .uses h1{
+        border-bottom: solid #007bff;
+    }
+   .lesson-content h2{
+    border-bottom: solid #007bff;
+   }
